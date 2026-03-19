@@ -1,20 +1,58 @@
 body {
-    font-family: Arial;
-    margin: 40px;
-    background: #f4f4f4;
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background: #eef2f7;
+    color: #1e293b;
 }
 
-header {
+/* Hero */
+.hero {
     text-align: center;
+    padding: 50px;
+    background: linear-gradient(135deg, #1e3a8a, #2563eb);
+    color: white;
 }
 
-section {
+.btn {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px 20px;
     background: white;
-    padding: 20px;
-    margin: 20px 0;
+    color: #2563eb;
+    border-radius: 6px;
+    text-decoration: none;
+}
+
+/* Container */
+.container {
+    max-width: 1000px;
+    margin: 30px auto;
+    background: white;
+    padding: 25px;
     border-radius: 10px;
 }
 
-.project {
-    margin-bottom: 15px;
+/* Section Title */
+h2 {
+    border-left: 6px solid #2563eb;
+    padding-left: 10px;
+}
+
+/* Cards */
+.card {
+    background: #f8fafc;
+    padding: 15px;
+    margin-top: 15px;
+    border-radius: 8px;
+    border-left: 5px solid #2563eb;
+}
+
+/* Skills */
+.skills span {
+    display: inline-block;
+    background: #2563eb;
+    color: white;
+    padding: 6px 12px;
+    margin: 5px;
+    border-radius: 6px;
 }
