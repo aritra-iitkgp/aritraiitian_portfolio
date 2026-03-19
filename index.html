@@ -1,201 +1,302 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Aritra Bose | Resume</title>
-    <link rel="stylesheet" href="style.css">
+<meta charset="UTF-8">
+<title>Aritra Bose | Resume</title>
+
+<style>
+
+body {
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background: #eef2f7;
+    color: #1e293b;
+}
+
+/* HERO */
+.hero {
+    position: relative;
+    height: 420px;
+    background: url("iitkgp.jpg") center/cover no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.65);
+}
+
+.hero-content {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.profile-img {
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    border: 4px solid white;
+    margin-bottom: 10px;
+}
+
+.btn {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 20px;
+    background: #38bdf8;
+    color: black;
+    text-decoration: none;
+    border-radius: 6px;
+}
+
+/* SECTION */
+.container {
+    max-width: 1000px;
+    margin: 25px auto;
+    background: white;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.1);
+}
+
+h2 {
+    border-left: 6px solid #2563eb;
+    padding-left: 10px;
+}
+
+/* CARD */
+.card {
+    background: #f8fafc;
+    padding: 15px;
+    margin-top: 15px;
+    border-radius: 8px;
+    border-left: 5px solid #2563eb;
+}
+
+/* SKILLS */
+.skills span {
+    display: inline-block;
+    background: #2563eb;
+    color: white;
+    padding: 6px 12px;
+    margin: 5px;
+    border-radius: 6px;
+}
+
+/* TABLE */
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table, th, td {
+    border: 1px solid #ddd;
+}
+
+th, td {
+    padding: 10px;
+}
+
+.center {
+    text-align: center;
+}
+
+</style>
+
 </head>
 
 <body>
 
 <header class="hero">
-    <h1>Aritra Bose</h1>
-    <p>Email: aritra.boseiitkgp@outlook.com | Contact: 7003797263</p>
-    <p>M.Tech (IIT Kharagpur) | 5 Years AWS Experience</p>
+    <div class="overlay"></div>
+
+    <div class="hero-content">
+        <img src="profile.jpg" class="profile-img">
+
+        <h1>Aritra Bose</h1>
+        <p>Email: aritra130.basu@gmail.com | Contact: 7003797263</p>
+        <p>M.Tech (IIT Kharagpur) | 5 Years AWS Experience</p>
+
+        <a href="resume.pdf" class="btn">Download Resume</a>
+    </div>
 </header>
 
-<section class="container">
-    <h2>Profile</h2>
-    <p>
-        Pursuing M.Tech in Vision and Intelligent Systems from IIT Kharagpur. 
-        5 year experienced AWS developer in Tata Consultancy Services, worked in data ingestion, 
-        data integration, and AWS services like Lambda, DynamoDB, Step Function, SAM.
-    </p>
-</section>
+<div class="container">
+<h2>Profile</h2>
+<p>
+Pursuing Mtech in Vision and Intelligent Systems from IIT Kharagpur,
+5year experienced AWS developer in TATA Consultancy Services, worked in data ingestion, data integration,
+Different AWS services like AWS lambda, DynamoDB, Step Function, SAM etc.
+</p>
+</div>
 
-<section class="container">
-    <h2>Objective</h2>
-    <p>
-        To obtain a competitive, responsible and rewarding position in an esteemed organization 
-        which offers stimulating and challenging work environment with ample scope of growth in AWS and DevOps.
-    </p>
-</section>
+<div class="container">
+<h2>Objective</h2>
+<p>
+To obtain a competitive, responsible and rewarding position in an esteemed organization which offers stimulating and challenging work environment with ample scope of growth in the areas of AWS and Devops.
+</p>
+</div>
 
-<section class="container">
-    <h2>Experience Summary</h2>
-    <ul>
-        <li>Total 5 years of experience in Amazon Web Services, CI/CD, Glue</li>
-        <li>6 months experience in ML classification (Logistic Regression, Random Forest, Decision Tree)</li>
-        <li>Hands-on AWS services: Lambda, API Gateway, DynamoDB, Python, RDS, ELB, ASG, EC2, IAM, KMS, Step Function, SAM, EBS, Instance Store, Elastic Beanstalk, CloudFormation</li>
-        <li>Experience in SageMaker implementing NLP using NMF and LDA</li>
-        <li>Worked in Agile teams using Jira and Azure DevOps</li>
-        <li>API creation using POST request, Python request module, Python logger</li>
-        <li>Worked in SMB protocol and on-premise server integration</li>
-        <li>Built ETL pipelines using AWS Glue, PySpark, S3, Lambda</li>
-        <li>Experience with PostgreSQL, SQLAlchemy, boto3</li>
-        <li>Worked with Athena and Redshift</li>
-        <li>Used Pylint, Bandit, Checkov, Black</li>
-        <li>Monitoring with AWS X-Ray and CloudWatch</li>
-        <li>Experience with RDS and Route53</li>
-    </ul>
-</section>
+<div class="container">
+<h2>Experience Summary</h2>
+<ul>
+<li>Total 5 years of experience in Amazon Web Services, CI/CD, Glue</li>
+<li>6 months experience in ML classification algorithm like Logistic Regression, Random Forest, Decision Tree</li>
+<li>Hands-on experience in Lambda, API Gateway, DynamoDB, Python,RDS, ELB,ASG, EC2,IAM,KMS,STEP FUNCTION, SAM,EBS, INSTANCE STORE, ELASTIC BEANSTALK,CLOUD FORMATION</li>
+<li>Hands-on in SageMaker implementing NLP using NMF and LDA</li>
+<li>Experience working in Agile team using Jira and Azure Devops</li>
+<li>API creation using POST request, python request module and logger</li>
+<li>Worked in SMB protocol and on-premise server</li>
+<li>Built ETL pipelines using AWS Glue, PySpark, Lambda</li>
+<li>Worked with PostgreSQL, sqlalchemy, boto3</li>
+<li>Worked with Athena and Redshift</li>
+<li>Used Pylint, Bandit, Checkov, Black</li>
+<li>Monitoring using AWS X-Ray and Cloudwatch</li>
+<li>Experience in RDS and Route53</li>
+</ul>
+</div>
 
-<section class="container">
-    <h2>Professional Experience</h2>
-    <ul>
-        <li>AWS and ML Engineer – TCS (Bayer)</li>
-        <li>AWS Engineer – TCS (Unicredit)</li>
-        <li>AWS & Python Engineer – TCS (Legal & General)</li>
-        <li>Python Developer – TCS (Aviva)</li>
-        <li>Full pipeline development – TCS (SPNI)</li>
-    </ul>
-</section>
+<div class="container">
+<h2>Professional Experience</h2>
+<ul>
+<li>AWS and ML Engineer in TCS (Bayer)</li>
+<li>AWS Engineer in TCS (Unicredit)</li>
+<li>AWS and Python Engineer in TCS (Legal And General)</li>
+<li>Python Development with Aviva</li>
+<li>Full pipeline development with SPNI</li>
+</ul>
+</div>
 
-<section class="container">
-    <h2>TCS Experience</h2>
-    <table>
-        <tr>
-            <th>Company</th>
-            <th>Start</th>
-            <th>End</th>
-            <th>Total Experience</th>
-        </tr>
-        <tr>
-            <td>Tata Consultancy Services</td>
-            <td>02/11/2020</td>
-            <td>25/07/2025</td>
-            <td>4.72 years</td>
-        </tr>
-    </table>
-</section>
+<div class="container">
+<h2>TCS Experience</h2>
+<table>
+<tr><th>Company</th><th>Start</th><th>End</th><th>Total</th></tr>
+<tr><td>TCS</td><td>02/11/2020</td><td>25/07/2025</td><td>4.72 years</td></tr>
+</table>
+</div>
 
-<section class="container">
-    <h2>Education</h2>
-    <ul>
-        <li>M.Tech – IIT Kharagpur (2027)</li>
-        <li>B.Tech – IIEST Shibpur (8.26 DGPA)</li>
-        <li>HSC – 90%</li>
-        <li>SSC – 87%</li>
-    </ul>
-</section>
+<div class="container">
+<h2>Education</h2>
+<ul>
+<li>Mtech – IIT Kharagpur (2027)</li>
+<li>B.Tech – IIEST Shibpur (8.26)</li>
+<li>HSC – 90%</li>
+<li>SSC – 87%</li>
+</ul>
+</div>
 
-<section class="container">
-    <h2>Specializations</h2>
-    <ul>
-        <li>Image and Video Processing</li>
-        <li>Computer Vision</li>
-        <li>Deep Learning</li>
-        <li>Pattern Recognition</li>
-        <li>Generative AI</li>
-        <li>3D Vision</li>
-        <li>Camera Calibration</li>
-        <li>Natural Language Processing</li>
-    </ul>
-</section>
+<div class="container">
+<h2>Specializations</h2>
+<ul>
+<li>Image and Video Processing</li>
+<li>Computer Vision</li>
+<li>Deep Learning</li>
+<li>Pattern Recognition</li>
+<li>Generative AI</li>
+<li>3D Vision</li>
+<li>Camera Calibration</li>
+<li>Natural Language Processing</li>
+</ul>
+</div>
 
-<section class="container">
-    <h2>Research & Seminar</h2>
-    <p>
-        Research on Learning Theory and Optimal Transport at IIT Kharagpur.
-        Seminar on Pixel reconstruction using Quaternion Matrix.
-    </p>
-</section>
+<div class="container">
+<h2>Research & Seminar</h2>
+<p>
+Research on Learning Theory and Optimal transport at IIT Kharagpur.
+Presented on Pixel reconstruction using Quaternion Matrix.
+</p>
+</div>
 
-<section class="container">
-    <h2>Technical Skills</h2>
-    <ul>
-        <li>Languages: Python, C++, Java</li>
-        <li>Database: DynamoDB, RDS, Aurora, PostgreSQL</li>
-        <li>AWS: Lambda, DynamoDB, API Gateway, CodeCommit, CodePipeline, RDS, Elastic Beanstalk, EC2, IAM, Glue, S3, SSM, Secrets Manager</li>
-        <li>DevOps: Docker, EKS, Terraform, Azure DevOps</li>
-        <li>Tools: Git, GitHub, GitLab</li>
-    </ul>
-</section>
+<div class="container">
+<h2>Technical Skills</h2>
+<ul>
+<li>Languages: Python, C++, Java</li>
+<li>Database: DynamoDB, RDS, Aurora, PostgreSQL</li>
+<li>AWS: Lambda, DynamoDB, API Gateway, CodeCommit, CodePipeline, EC2, IAM, Glue, S3</li>
+<li>DevOps: Docker, EKS, Terraform, Azure DevOps</li>
+<li>Tools: Git, GitHub, GitLab</li>
+</ul>
+</div>
 
-<section class="container">
-    <h2>Certifications</h2>
-    <ul>
-        <li>AWS Certified Developer Associate</li>
-        <li>AWS Solution Architect (Udemy)</li>
-        <li>AWS DevOps Engineer (Udemy)</li>
-        <li>Natural Language Processing (Udemy)</li>
-    </ul>
-</section>
+<div class="container">
+<h2>Certifications</h2>
+<ul>
+<li>AWS Certified Developer Associate</li>
+<li>AWS Solution Architect</li>
+<li>AWS DevOps Engineer</li>
+<li>NLP Certification</li>
+</ul>
+</div>
 
-<section class="container">
-    <h2>Awards</h2>
-    <ul>
-        <li>TCS Gems Award</li>
-        <li>Top Contributor Award</li>
-        <li>TCS Digital ML milestone</li>
-    </ul>
-</section>
+<div class="container">
+<h2>Awards</h2>
+<ul>
+<li>TCS Gems Award</li>
+<li>Top Contributor Award</li>
+<li>TCS Digital milestone</li>
+</ul>
+</div>
 
-<section class="container">
-    <h2>Projects</h2>
+<div class="container">
+<h2>Projects</h2>
 
-    <div class="card">
-        <h3>Legal & General (Maldives)</h3>
-        <p>Extracted data from handwritten forms using AWS and NLP.</p>
-        <ul>
-            <li>Lambda, DynamoDB, Step Functions</li>
-            <li>SQS, SNS integration</li>
-            <li>NMF and LDA NLP models</li>
-            <li>On-premise integration (NetApp)</li>
-        </ul>
-    </div>
+<div class="card">
+<h3>Legal & General</h3>
+<ul>
+<li>Lambda, DynamoDB, Step Functions</li>
+<li>SQS, SNS integration</li>
+<li>NLP using NMF and LDA</li>
+<li>On-premise NetApp integration</li>
+</ul>
+</div>
 
-    <div class="card">
-        <h3>Unicredit</h3>
-        <ul>
-            <li>RDS database creation</li>
-            <li>EC2 server setup</li>
-        </ul>
-    </div>
+<div class="card">
+<h3>Unicredit</h3>
+<ul>
+<li>RDS database creation</li>
+<li>EC2 server setup</li>
+</ul>
+</div>
 
-    <div class="card">
-        <h3>Bayer DMS-RCA</h3>
-        <ul>
-            <li>AWS Glue ingestion</li>
-            <li>ML models: Decision Tree, Logistic Regression</li>
-            <li>RShiny visualization</li>
-        </ul>
-    </div>
+<div class="card">
+<h3>Bayer</h3>
+<ul>
+<li>AWS Glue ingestion</li>
+<li>ML models: Decision Tree, Logistic Regression</li>
+<li>RShiny visualization</li>
+</ul>
+</div>
 
-    <div class="card">
-        <h3>SPNI-ZEEL</h3>
-        <ul>
-            <li>S3 Raw → Staging → Curated</li>
-            <li>Glue + PySpark</li>
-            <li>Lambda event pipeline</li>
-            <li>Step Functions orchestration</li>
-            <li>Athena + SFTP</li>
-        </ul>
-    </div>
+<div class="card">
+<h3>SPNI-ZEEL</h3>
+<ul>
+<li>S3 Raw → Staging → Curated</li>
+<li>Glue + PySpark</li>
+<li>Lambda event pipelines</li>
+<li>Step Functions orchestration</li>
+<li>Athena + SFTP</li>
+</ul>
+</div>
 
-    <div class="card">
-        <h3>AVIVA</h3>
-        <ul>
-            <li>Python + Dataiku pipelines</li>
-            <li>SQL queries</li>
-            <li>Azure DevOps orchestration</li>
-        </ul>
-    </div>
+<div class="card">
+<h3>AVIVA</h3>
+<ul>
+<li>Python + Dataiku pipelines</li>
+<li>SQL queries</li>
+<li>Azure DevOps orchestration</li>
+</ul>
+</div>
 
-</section>
+</div>
 
-<section class="container center">
-    <a href="resume.pdf" class="btn">Download Resume</a>
-</section>
+<div class="container center">
+<a href="resume.pdf" class="btn">Download Resume</a>
+</div>
 
 </body>
 </html>
